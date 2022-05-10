@@ -34,7 +34,7 @@
 
         <!-- Begin Home Section -->
         <div id="Home" class="tabcontent">
-            <img class="examplepics" id="headshot" src="assets/images/headshot.jpeg" alt="Jaylon Bohanon Resume">
+            <img class="examplepics" id="headshot" src="" alt="Jaylon Bohanon Resume">
             <div id="floatRtPro">
                 <div id="profileText">
                     <div> I am a dutiful senior in Information Science who is creative 
@@ -81,14 +81,14 @@
                 The first example is a logo I designed in my graphic design class for my business.
                 In this class I also made shirts and stickers for my business, "JayLabs".
                 <br><br><br>
-                <img class="tinypics" style="width: 200px; margin-left: 35px; margin-bottom: 50px;" src="assets/images/ab_logo.jpeg"></img>
+                <img class="tinypics" style="width: 200px; margin-left: 35px; margin-bottom: 50px;" src=""></img>
                 </div> 
-                <img class="tinypics" style="margin-left: 70px; width: 315px" src="assets/images/recital.jpg"></img>
+                <img class="tinypics" style="margin-left: 70px; width: 315px" src="">
             </div>
             <div class="skillsection">
                 <span class="bragtitle">Adobe Photoshop</span>
                 <br><br>
-                <img class="tinypics" style="width: 500px; margin-bottom: 10px; margin-left: 25px;" src="assets/images/performance.jpg"></img>
+                <img class="tinypics" style="width: 500px; margin-bottom: 10px; margin-left: 25px;" src=""></img>
                 <div class="floatright" style="margin-top: 30px; margin-left: 0px; margin-right: 25px; width: 240px;">
                    
                 </div>
