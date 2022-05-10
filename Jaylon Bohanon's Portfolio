@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Jaylon Bohanon</title>
+    <meta name="description" content="Portfolio of Jaylon Bohanon">
+    <meta name="keywords" content="Information, Science, UALR, Bachelors, Computer, HTML, CSS, Javascript, SQL, Web Design
+                                   Developer, Portfolio">
+    <meta name="author" content="Jaylon Bohanon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/style/studentportfolio.css">
+    <!-- Bootstrap CSS -->
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="titlecontainer">
+        <h1 class="titlefont">Jaylon Bohanonr</h1>
+    </div>
+    <div id="container">
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'Home')" id="defaultOpen">Profile</button>
+            <button class="tablinks" onclick="openTab(event, 'Resume')">Resume</button>
+            <button class="tablinks" onclick="openTab(event, 'Skills')">Skills</button>
+            <button class="tablinks" onclick="openTab(event, 'Education')">Education</button>
+            <button class="tablinks" onclick="openTab(event, 'Accomplishments')">Accomplishments</button>
+            <button class="tablinks" onclick="openTab(event, 'CoverLetter')">Cover Letter</button>
+            <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+            <button class="tablinks" onclick="openRedirect('workexamples.html')">Work Examples</button>
+        </div>
+
+        <!-- Begin Home Section -->
+        <div id="Home" class="tabcontent">
+            <img class="examplepics" id="headshot" src="assets/images/headshot.jpeg" alt="Jaylon Bohanon Resume">
+            <div id="floatRtPro">
+                <div id="profileText">
+                    <div> I am a dutiful senior in Information Science who is creative 
+                        and has good attention to detail. I previously worked with teams dealing with robotis and a proficient coder. I currently looking for work as for the city of Little Rock
+                        where I am applying a variety of skills such as SQL, C++, HTML, and graphic designing 
+                        software. I am looking forward to future opportunities and learn and grow in my 
+                        IT career.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Begin Skills Section -->
+        <div id="Skills" class="tabcontent">
+            <div class="skillsection" style="height: 165px;">
+                <div style="float: left;">
+                <span class="bragtitle">Programming Languages</span>
+                <br>
+                <ul>
+                    <li>SQL</li>
+                    <li>HTML</li>
+                    <li>JavaScript</li>
+                    <li>CSS</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>C++</li>
+                </ul>
+            </div>
+                <div style="float: right; margin-right: 400px;">
+                    <span class="bragtitle">Additional Skills</span>
+                    <br>
+                    <ul class="skillslist">
+                        <li>Microsoft Office Programs</li>
+                        <li>Adobe Photoshop</li>
+                        <li>Database Programs</li>
+                        <li>Graphic Designing</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="skillsection">
+                <span class="bragtitle">Graphic Design</span>
+                <br><br>
+                <div style="float: left; width: 280px; padding-left: 45px; padding-right: 60px; border-right: solid black 1px;">
+                The first example is a logo I designed in my graphic design class for my business.
+                In this class I also made shirts and stickers for my business, "JayLabs".
+                <br><br><br>
+                <img class="tinypics" style="width: 200px; margin-left: 35px; margin-bottom: 50px;" src="assets/images/ab_logo.jpeg"></img>
+                </div> 
+                <img class="tinypics" style="margin-left: 70px; width: 315px" src="assets/images/recital.jpg"></img>
+            </div>
+            <div class="skillsection">
+                <span class="bragtitle">Adobe Photoshop</span>
+                <br><br>
+                <img class="tinypics" style="width: 500px; margin-bottom: 10px; margin-left: 25px;" src="assets/images/performance.jpg"></img>
+                <div class="floatright" style="margin-top: 30px; margin-left: 0px; margin-right: 25px; width: 240px;">
+                   
+                </div>
+            </div>
+        </div>
+
+        <div id="Education" class="tabcontent">
+            <div class="floatlefttext">
+                <a href="https://ualr.edu/" target="_blank"><img class="schoollogo" id="link" src="assets/images/ua_little_rock.jpg" alt="UALR Logo"></a>
+            </div>
+            <span><div class="bragtitle">UA Pulaski Technical College</div>
+                June 2016 - December 2018</span>
+                <br><span><a href="https://boss.ualr.edu/pls/prod/bwskotrn.P_ViewTran" target="_blank">View courses completed at UALR</a> </span>
+        </div>
+
+        <div id="Accomplishments" class="tabcontent">
+            <div class="floatlefttext">
+                <span class="accsection">2021</span>
+                <br><br>
+                <div class="accframe">
+                    <span><div class="bragtitle">Robotics Fair 
+                        <br>3rd Place Award</div>
+                        Feburary 2017</span>
+                    <br><br>
+                    <span><div class="bragtitle">Southeast Arkansas Regional Science Fair
+                        <br>Award</div>
+                        April 2018</span>                   
+                    <br><br>
+                    <span><div class="bragtitle">Scholarship Lottery
+                        <br>Scholarship</div>
+                        Spring 2021</span>
+                </div>
+            </div>
+
+        </div>        
+        
+        <!-- Begin Resume Section -->
+        <div id="Resume" class="tabcontent">
+           
+            <br><br>
+            <div id="resumetext">
+                <div id="resumetitle">
+                    <span>Jaylon Bohanon</span>
+                </div>
+                <div id="resumesubtitle">
+                    <span>Information Science Student</span>
+                </div>
+                <div class="resleftcolumn">
+                    <div class="sectiontitle">Contact</div>
+                    <p>Phone: 501-606-0944<br>
+                       Email: JBohanon@ualr.edu<br>
+                       Location: Little Rock, Arkansas</p>
+                    <br>
+                    <div class="sectiontitle">Education</div>
+                    <p>Persuing BS, Information Science<br>
+                       University of Arkansas Little Rock<br>
+                       Expected Graduation, May 2023<br>
+                       GPA 2.85</b></p>
+                    <br>                    <div class="sectiontitle">Skills</div>
+                    <p>36 Credits completed in Information Science courses</p>
+                    <p>Coursework completed using HTML, CSS, JavaScript, Java, C++, Microsoft Office, and SQL</p>
+                    <p>Adobe Photoshop</p>
+                    <br>
+                    <div class="sectiontitle">Awards</div>
+                    <p>Arkansas Scholarship Lottery</p>
+                    <p>Awarded 3rd Place in Regional Robotics Fair</p>
+                    <br>
+                    <div class="sectiontitle">Interests</div>
+                    <p>Web design, UI/UX, playing piano, traveling, and volunteering.</p>
+                </div>
+                <div class="resrightcolumn">
+                    <div class="sectiontitle">Profile</div>
+                    <p>Highly-motivated senior in Information Science with creativity and attention to detail.
+                    Along with being a person with a variety of skillsets I also take
+                    time for myself playing piano and teaching others how to play. Gained many piano students and 
+                    work opportunities based on good reputation. Eager
+                    to apply classroom knowledge and learn new skills in technology field.
+                    </p>
+                    <br>
+                    <div class="sectiontitle">Experience</div>
+                    <p>
+                    <div class="jobrole">Customer Service</div>
+                        <div class="jobinfo">Kilwins | Little Rock, AR | May 2016 - April 2021</div>
+                    </p>
+                    <p>I did a variety of things such as time management, cooking, and money management.
+                        Along with professionally handling a wide arrange of customers I also was involed with 
+                        advertisment.
+                    </p>
+                    <p>
+                    <div class="jobrole">Piano Teacher</div>
+                        <div class="jobinfo">Freelancer | North Little Rock, AR | 2018 - Present</div>
+                        </p>
+                    <p>I play the piano and was eventually inspired to teach. I go aroung my neighborhood 
+                        instructing young children to teens. Sometimes even family members.
+                    </p>
+                    <p>
+                    <div class="jobrole">Planet Fitness</div>
+                        <div class="jobinfo">Representative | North Little Rock, AR | 2021 - Present</div>
+                    </p>
+                    <p> At Planet Fitness I am in charge of datatracking and sales. I am also responible for 
+                        keeping the gym neat and clean. In fact ours is the most clean gym in the state of Arkansas.
+                    </p>
+                </div>
+            </div>
+            <br>
+        </div>
+        
+        <div id="CoverLetter" class="tabcontent">
+            <div id="coverletter">
+                <div class="floatrightcover">
+                    <p>Jaylon Bohanon
+                    <br>
+                    Little Rock, AR
+                    <br>
+                    501-606-0944
+                    <br>
+                    jbohanonr@ualr.edu
+                    </p>
+                </div>
+                <br><br><br><br><br><br><br><br>
+                <p>Dear Prospective Employer:
+                <br><br><br>
+                I am a Senior in the UALR Infromation Science program with an anticipated graduation date 
+                of May 2023. I am motivated and excited about my upcoming carreer in IT. My goal is to contribute 
+                my skills in web development and database technology at a company where I can continue to grow. 
+                <br><br>
+                I have a background in music performance and I am skilled in visual design. I have completed course work using
+                HTML, CSS, JavaScript, Java, Python, SQL, C++ and Microsoft Office. I currently work as an intern Solution 
+                Developer for the state of Arkansas and I plan to land a rewarding career following graduation.
+                <br><br>
+            
+                <br><br><br>
+                Sincerely,
+                <br>
+                Jaylon Bohanon
+                </p>
+            </div>
+        </div>
+
+        <div id="Contact" class="tabcontent">
+            <div class="floatlefttext">
+            <div class="accframe" style="width: 450px;">
+                <div id="contactType">
+                    <span class="bragtitle">Email:</span>
+                    <br><br>
+                    <span class="bragtitle">Phone:</span>
+                    <br><br>
+                    <span class="bragtitle">LinkedIn:</span>
+                    <br><br>
+                    <span class="bragtitle">Web Address:</span>
+                </div>
+                <span>jbohanon@ualr.edu</span>
+                <br><br>
+                <span>501-606-0944</span>
+                <br><br>
+                <span><a href="https://www.linkedin.com/in/jaylon-bohanon-555442236/" target="_blank">Click to view profile</a></span>
+                <br><br>
+                <span>https://github.com/jkbohanon/portfolio</span>
+            </div>
+        </div>
+        </div>  
+</div>
+<script type="text/javascript" src="assets/scripts/index.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>-->
+</body>
+</html>
