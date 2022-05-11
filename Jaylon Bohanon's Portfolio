@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Jaylon Bohanon</title>
+    <link rel="stylesheet" href="style.css">
     <meta name="description" content="Portfolio of Jaylon Bohanon">
     <meta name="keywords" content="Information, Science, UALR, Bachelors, Computer, HTML, CSS, Javascript, SQL, Web Design
                                    Developer, Portfolio">
@@ -18,7 +19,7 @@
 
 <body>
     <div id="titlecontainer">
-        <h1 class="titlefont">Jaylon Bohanonr</h1>
+        <h1 class="titlefont">Jaylon Bohanon</h1>
     </div>
     <div id="container">
         <div class="tab">
